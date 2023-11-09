@@ -11,6 +11,8 @@ const Page = ({ children }: any) => {
           <br />
           <div className="border p-6 m-6">{children}</div>
           <br />
+          <Link href="/">Go to /</Link>
+          <br />
           <Link href="/hello">Go to /(haslayout)/hello</Link>
           <br />
           <Link href="/goodbye">Go to /(haslayout)/goodbye</Link>
