@@ -8,16 +8,6 @@ const Page = ({ children }: any) => {
       </h2>
       <br />
       <div className="border p-6 m-6">{children}</div>
-      <br />
-      <Link href="/">Go to /</Link>
-      <br />
-      <Link href="/hello">Go to /(haslayout)/hello</Link>
-      <br />
-      <Link href="/goodbye">Go to /(haslayout)/goodbye</Link>
-      <br />
-      <Link href="/clientcomponent">Go to /(nolayout)/clientcomponent</Link>
-      <br />
-      <Link href="/servercomponent">Go to /(nolayout)/servercomponent</Link>
     </div>
   );
 };
